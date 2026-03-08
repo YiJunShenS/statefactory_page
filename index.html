@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="StateFactory: A factorized representation method that transforms unstructured observations into a hierarchical object-attribute structure for accurate reward prediction.">
+  <meta name="keywords" content="Reward Prediction, World Models, State Representation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" src="https://huggingface.co/datasets/embed-grid.js"></script>
+  <title>StateFactory | Reward Prediction with Factorized World States</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+
+  <style>
+    /* =========================================
+       Typography & Overrides
+       ========================================= */
+    .brand-name {
+      display: block; font-size: 4.5rem; font-weight: 900 !important;
+      background: linear-gradient(to right, #22c55e, #06b6d4, #3b82f6, #a855f7);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      letter-spacing: -2px; line-height: 1.1; margin-bottom: 0.6rem;
+    }
+    .title-subtext {
+      display: block; font-size: 2.0rem !important; font-weight: 700 !important;
+      background: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      letter-spacing: -0.5px; line-height: 1.2 !important;
+    }
+    .publication-title { font-family: 'Google Sans', sans-serif !important; font-weight: 700 !important; font-size: 2.2rem !important; color: #3c4043; line-height: 1.2 !important; }
+    .external-link { border-radius: 12px !important; background-color: #1e293b !important; transition: all 0.3s ease; }
+    .external-link:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #2563eb !important; }
+    .title.is-3 { font-family: 'Google Sans', sans-serif !important; font-weight: 700 !important; color: #1e293b !important; letter-spacing: -0.5px; margin-bottom: 1.5rem !important; }
+    .bg-slate { background-color: #f1f5f9; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; }
+
+    /* =========================================
+       StateFactory Interactive Dashboard Styles
+       ========================================= */
+    :root { 
+      --dash-bg: #f8fafc; --dash-panel: #ffffff; --dash-text: #0f172a; --dash-muted: #64748b; 
+      --dash-accent: #2563eb; --dash-border: #e2e8f0;
+      --dash-success-bg: #ecfdf5; --dash-success-border: #10b981; --dash-success-text: #064e3b;
+      --dash-danger-bg: #fff1f2; --dash-danger-border: #f43f5e; --dash-danger-text: #9f1239;
+    }
+    
+    .dashboard-fluid-container { width: 98%; max-width: 1800px; margin: 0 auto; padding: 0 15px; }
+
+    /* Case Tab Styles */
+    .case-tabs { display: flex; justify-content: center; gap: 15px; margin-bottom: 25px; }
+    .case-tab { padding: 10px 24px; border-radius: 30px; font-weight: 700; font-size: 15px; color: var(--dash-muted); background: #fff; border: 2px solid var(--dash-border); cursor: pointer; transition: all 0.3s ease; }
+    .case-tab:hover { border-color: #94a3b8; color: var(--dash-text); }
+    .case-tab.active { background: var(--dash-accent); color: #fff; border-color: var(--dash-accent); box-shadow: 0 4px 12px rgba(37,99,235,0.3); }
+
+    .dashboard-app { 
+      display: grid; 
+      grid-template-columns: 1fr 1.2fr 1.2fr; 
+      gap: 20px; 
+      background: var(--dash-bg); 
+      padding: 20px; 
+      border-radius: 16px;
+      border: 1px solid var(--dash-border);
+      height: 85vh; 
+      min-height: 850px; 
+      box-sizing: border-box; 
+      text-align: left;
+    }
+    
+    .dash-column { display: flex; flex-direction: column; height: 100%; overflow: hidden; gap: 16px; }
+    .dash-card { background: var(--dash-panel); border: 1px solid var(--dash-border); border-radius: 16px; display: flex; flex-direction: column; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden; height: 100%;}
+    
+    .dash-header { padding: 14px 18px; border-bottom: 1px solid var(--dash-border); background: #fff; flex-shrink: 0; }
+    .dash-header h3 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--dash-muted); font-weight: 800; }
+    
+    /* Independent Scroll Area */
+    .dash-scroll-area { flex: 1; padding: 16px; background: #f8fafc; overflow-y: auto; } 
+    
+    /* Custom Scrollbar */
+    .dash-scroll-area::-webkit-scrollbar { width: 6px; }
+    .dash-scroll-area::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 10px; }
+
+    /* === Cards & Attributes === */
+    .state-card { background: #fff; border: 1px solid var(--dash-border); border-radius: 14px; padding: 14px 16px; margin-bottom: 16px; transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); position: relative; }
+    
+    .state-card.mode-idle { opacity: 0.5; transform: scale(0.98); border: 2px dashed #cbd5e1; background: #f8fafc; }
+    .state-card.mode-idle .card-title { color: var(--dash-muted); }
+    
+    .state-card.moving { z-index: 10; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15); transform: scale(1.02); }
+    .card-title { font-weight: 800; font-size: 16px; margin-bottom: 10px; color: var(--dash-text); text-transform: capitalize; }
+
+    /* === Key and Value Layout Spacing === */
+    .dash-attr { 
+      display: flex; 
+      flex-direction: row;
+      gap: 10px; 
+      font-size: 12px; padding: 8px 12px; border-radius: 8px; margin: 6px 0; 
+      border: 1px solid transparent; border-left-width: 5px; 
+      line-height: 1.4; box-sizing: border-box; align-items: start;
+    }
+    
+    .dash-attr strong {
+      flex-shrink: 0; max-width: 45%; word-break: break-word; overflow-wrap: anywhere;
+    }
+    
+    .dash-attr span { flex: 1; }
+
+    .dash-attr.newly-achieved { background: #ecfdf5; border-color: #10b981; border-left-color: #059669; color: #064e3b; font-weight: 800; box-shadow: 0 0 12px rgba(16, 185, 129, 0.3); animation: pulse-glow 2s infinite; }
+    .dash-attr.already-achieved { background: transparent; border: 1px dashed #d1fae5; border-left: 4px solid #86efac; color: #10b981; font-weight: 600; opacity: 0.9; }
+    .dash-attr.not-achieved { background: #fff1f2; border-left-color: var(--dash-danger-border); color: #9f1239; }
+    .dash-attr.neutral { background: #f8fafc; border-left-color: #cbd5e1; color: var(--dash-muted); }
+    .dash-attr.placeholder { visibility: hidden; }
+
+    @keyframes pulse-glow { 0%, 100% { box-shadow: 0 0 5px rgba(16,185,129,0.2); } 50% { box-shadow: 0 0 20px rgba(16,185,129,0.5); } }
+
+    /* Video and Text Panel */
+    #dash-video { width: 100%; border-radius: 12px; background: #000; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); max-height: 380px; object-fit: contain; flex-shrink: 0;}
+    
+    .goal-header-card { padding: 14px 16px; background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%); border-left: 5px solid var(--dash-accent); margin-top: 10px; flex-shrink: 0; }
+    .goal-header-card .dash-label { font-size: 11px; font-weight: 800; color: var(--dash-accent); text-transform: uppercase; margin-bottom: 4px; }
+    .goal-header-card .dash-content { font-size: 14px; font-weight: 700; line-height: 1.4; color: var(--dash-text); }
+
+    /* Timeline Smart Scrolling Container */
+    .timeline-container { 
+      flex: 1; position: relative; display: flex; flex-direction: column; gap: 12px; padding: 12px; background: var(--dash-panel); 
+      border-radius: 16px; border: 1px solid var(--dash-border); overflow-y: auto; scroll-behavior: smooth;
+    }
+    .timeline-container::-webkit-scrollbar { width: 6px; }
+    .timeline-container::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 10px; }
+    
+    .step-item { flex-shrink: 0; min-height: 75px; display: flex; flex-direction: column; border-radius: 10px; border: 1px solid var(--dash-border); cursor: pointer; transition: 0.3s; background: #fff; position: relative; overflow: hidden; }
+    .step-item.active { border-color: var(--dash-accent); box-shadow: 0 4px 12px rgba(37,99,235,0.15); transform: scale(1.01); z-index: 5;}
+    
+    .step-main { flex: 1; display: flex; align-items: stretch; }
+    .step-info { flex: 1; padding: 12px 14px; display: flex; flex-direction: column; justify-content: center; }
+    .step-info .step-num { font-size: 11px; font-weight: 800; color: var(--dash-muted); text-transform: uppercase; margin-bottom: 4px;}
+    .step-info .step-title { font-size: 14px; font-weight: 700; color: var(--dash-text); line-height: 1.35; }
+    
+    .reward-panel { width: 75px; background: #f8fafc; border-left: 1px solid var(--dash-border); display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease; opacity: 0.2; }
+    .reward-panel.active { background: var(--dash-success-bg); border-left-color: var(--dash-success-border); opacity: 1; }
+    .reward-panel .r-label { font-size: 9px; font-weight: 800; color: var(--dash-muted); text-transform: uppercase; margin-bottom: 2px; }
+    .reward-panel.active .r-label { color: var(--dash-success-text); }
+    .reward-panel .r-value { font-size: 18px; font-weight: 900; color: var(--dash-success-text); }
+    .step-mini-progress { height: 4px; width: 0%; background: var(--dash-accent); position: absolute; bottom: 0; left: 0; transition: width 0.1s linear; }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <span class="brand-name">StateFactory</span>
+            <span class="title-subtext">Reward Prediction with Factorized World States</span>
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <div class="author-row">
+              <span class="author-block"><a href="https://yijunshens.github.io/">Yijun Shen</a><sup>1,*</sup>,</span>
+              <span class="author-block"><a href="https://chendelong.world/">Delong Chen</a><sup>2,*</sup></span>
+            </div>
+            <div class="author-row">
+              <span class="author-block"><a href="https://www.semanticscholar.org/author/Xianming-Hu/2276742198">Xianming Hu</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://openreview.net/profile?id=~Jiaming_Mi1">Jiaming Mi</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://openreview.net/profile?id=~Hongbo_Zhao7">Hongbo Zhao</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://faculty.ecnu.edu.cn/_s16/zk2/main.psp">Kai Zhang</a><sup>1,✉️</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&user=QEMJWzEAAAAJ">Pascale Fung</a><sup>2</sup></span>
+            </div>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>East China Normal University,</span>
+            <span class="author-block"><sup>2</sup>HKUST</span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">* Equal Contribution</span>
+            <span class="author-block">&nbsp;&nbsp;✉️ Corresponding Author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links" style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
+              <span class="link-block"><a href="#" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span></a></span>
+              <span class="link-block"><a href="https://github.com/yijunshens/StateFactory" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>Code</span></a></span>
+              <span class="link-block"><a href="https://huggingface.co/datasets/YijunShen/RewardPrediction" class="external-link button is-normal is-rounded is-dark"><span class="icon"><span>🤗</span></span><span>Benchmark</span></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-slate">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fullwidth">
+        <div class="content has-text-justified is-size-5">
+          <p>
+            Agents must infer action outcomes and select actions that maximize a reward signal indicating how close the goal is to being reached. 
+            Traditional supervised learning of reward models can introduce biases inherent to training data, limiting generalization to novel goals and environments.
+          </p>
+          <p>
+            We introduce <b>StateFactory</b>, a factorized representation method that transforms unstructured observations into a hierarchical object-attribute structure using language models. 
+            This structured representation allows rewards to be estimated naturally as the semantic similarity between the current state and the goal state under hierarchical constraints.
+          </p>
+          <p>
+            Our method achieves promising zero-shot results on our new <b>RewardPrediction</b> benchmark, which comprises 2,454 unique action-observation trajectories across five diverse domains. 
+            <b>StateFactory</b> successfully enhances agent planning performance, yielding success rate gains of <b>+21.64% on AlfWorld</b> and <b>+12.40% on ScienceWorld</b>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fullwidth">
+        <h2 class="title is-3">RewardPrediction Benchmark</h2>
+        <div class="content">
+          <img src="./static/images/rewardpredition_demo.png" alt="RewardPrediction Benchmark Overview" style="width:100%; height:auto;">
+        </div>
+        <div class="content has-text-justified is-size-5" style="margin-top: 25px;">
+          <p>
+            To rigorously evaluate zero-shot reward prediction, we introduce <b>RewardPrediction</b>, a new benchmark spanning five diverse interactive domains. 
+            The dataset comprises <b>2,454 unique trajectories</b>, each containing fine-grained, step-wise action-observation pairs and scalar ground-truth rewards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-slate">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fullwidth">
+        <iframe src="https://huggingface.co/datasets/YijunShen/RewardPrediction/embed/viewer" frameborder="0" width="100%" height="600px" style="border-radius: 16px; border: none; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.1); background: #ffffff;" title="StateFactory RewardPrediction Dataset"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fullwidth">
+        <h2 class="title is-3">StateFactory Method</h2>
+        <div class="content">
+          <img src="./static/images/statefactory.png" alt="StateFactory Framework Overview" style="width:100%; height:auto;">
+        </div>
+        <div class="content has-text-justified is-size-5" style="margin-top: 25px;">
+          <p>
+            <b>StateFactory</b> factorizes unstructured observations into a hierarchical object-attribute structure to enable robust, zero-shot reward prediction. By explicitly separating entity identity from evolving attributes, the framework leverages recurrent <b>State Extraction</b> and <b>Goal Interpretation</b> to filter task-irrelevant noise and adapt instructions into dynamic goal states. Finally, <b>Hierarchical Routing</b> derives rewards by measuring the semantic distance between world and goal states, ensuring strong generalization across diverse domains without training.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="section bg-slate">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fullwidth">
+        <h2 class="title is-3">Main Results</h2>
+        <div class="content has-text-justified is-size-5">
+          <p>
+            We compare <b>StateFactory</b> with baselines across the <b>REWARDPREDICTION</b> benchmark. 
+            Our method establishes a new SOTA among zero-shot methods and approaches the performance of supervised baselines.
+          </p>
+        </div>
+        <div class="table-container">
+          <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth has-text-centered" style="font-size: 0.95rem; background: #fff; border-radius:12px; overflow:hidden;">
+            <thead>
+              <tr style="background-color: #f5f5f5;">
+                <th rowspan="2" style="vertical-align: middle;">Method</th>
+                <th rowspan="2" style="vertical-align: middle;">Backbone</th>
+                <th rowspan="2" style="vertical-align: middle;">Training Data</th>
+                <th rowspan="2" style="vertical-align: middle;">Reasoning</th>
+                <th rowspan="2" style="vertical-align: middle;">Zero-shot</th>
+                <th colspan="6">Reward Prediction Error (D<sub>EPIC</sub> &darr;)</th>
+              </tr>
+              <tr style="background-color: #f5f5f5;">
+                <th>AlfWorld</th><th>Science</th><th>WebShop</th><th>Blocks</th><th>Text</th><th>Overall</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="vertical-align: middle;"><i>Monotonic Baseline</i></td><td>--</td><td>--</td><td>--</td><td>✓</td><td>0.532</td><td>0.508</td><td>0.535</td><td>0.589</td><td>0.536</td><td>0.540</td>
+              </tr>
+              <tr style="color: #808080;">
+                <td rowspan="6" style="vertical-align: middle;"><i>Supervised RM</i></td><td rowspan="6" style="vertical-align: middle;">Qwen2.5-1.5B</td><td>AlfWorld</td><td rowspan="6" style="vertical-align: middle;">N/A</td><td rowspan="6" style="vertical-align: middle;">✗</td><td><u>0.212</u></td><td>0.542</td><td>0.618</td><td>0.596</td><td>0.414</td><td><u>0.476</u></td>
+              </tr>
+              <tr style="color: #808080;"><td>ScienceWorld</td><td>0.506</td><td><u>0.305</u></td><td>0.661</td><td>0.706</td><td>0.580</td><td>0.552</td></tr>
+              <tr style="color: #808080;"><td>WebShop</td><td>0.707</td><td>0.624</td><td><b>0.242</b></td><td>0.706</td><td>0.707</td><td>0.597</td></tr>
+              <tr style="color: #808080;"><td>BlocksWorld</td><td>0.556</td><td>0.471</td><td>0.596</td><td><b>0.472</b></td><td>0.556</td><td>0.530</td></tr>
+              <tr style="color: #808080;"><td>TextWorld</td><td>0.523</td><td>0.658</td><td>0.678</td><td>0.604</td><td><u>0.203</u></td><td>0.533</td></tr>
+              <tr style="color: #808080;"><td><b>All Domains</b></td><td><b>0.178</b></td><td><b>0.283</b></td><td><u>0.285</u></td><td><u>0.489</u></td><td><b>0.177</b></td><td><b>0.282</b></td></tr>
+              <tr>
+                <td style="vertical-align: middle;"><i>VLWM-critic</i></td><td>Llama3.2-1B</td><td>VLWM Traj.</td><td>N/A</td><td>✓</td><td>0.823</td><td>0.673</td><td>0.636</td><td>0.663</td><td>0.896</td><td>0.738</td>
+              </tr>
+              <tr>
+                <td rowspan="4" style="vertical-align: middle;"><i>LLM-as-a-Judge</i></td><td rowspan="2" style="vertical-align: middle;">Qwen3-14B</td><td rowspan="4" style="vertical-align: middle;">--</td><td>✗</td><td rowspan="4" style="vertical-align: middle;">✓</td><td>0.395</td><td>0.542</td><td>0.403</td><td>0.466</td><td>0.316</td><td>0.424</td>
+              </tr>
+              <tr><td>✓</td><td>0.370</td><td><u>0.371</u></td><td><u>0.356</u></td><td>0.436</td><td>0.211</td><td>0.349</td></tr>
+              <tr><td rowspan="2" style="vertical-align: middle;">gpt-oss-20b</td><td>Low</td><td>0.368</td><td>0.394</td><td>0.376</td><td><b>0.362</b></td><td><u>0.119</u></td><td>0.324</td></tr>
+              <tr><td>Medium</td><td><u>0.366</u></td><td>0.391</td><td>0.374</td><td><u>0.363</u></td><td><b>0.115</b></td><td><u>0.322</u></td></tr>
+              <tr style="background-color: #ebf2ff;">
+                <td style="vertical-align: middle;"><b>StateFactory</b></td><td>gpt-oss-20b</td><td>--</td><td>Medium</td><td>✓</td><td><b>0.285</b></td><td><b>0.288</b></td><td><b>0.286</b></td><td>0.427</td><td>0.201</td><td><b>0.297</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<section class="section" style="padding-bottom: 2rem;">
+  <div class="dashboard-fluid-container"> 
+    <div class="container is-max-widescreen" style="margin-bottom: 2rem;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-fullwidth">
+          <h2 class="title is-3" style="font-family: 'Google Sans', sans-serif;">
+            StateFactory Representation for Procedural Videos
+          </h2>
+          <div class="content has-text-justified is-size-5" style="margin-top: 15px; color: #475569;">
+            <p>
+              To further evaluate our method's capability in real-world continuous visual domains, we apply <b>StateFactory</b> to the <b>Action100M</b> dataset. Using its unique <b>Tree-of-Captions</b> structure, we convert the hierarchical annotations into a maximally fine-grained, contiguous sequence of steps covering the entire video. Guided by this complete timeline, our framework translates visual observations into factorized state representations, successfully capturing state changes and tracking task progress step by step.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-tabs">
+      <div class="case-tab active" data-case="case1">🍳🍓 Making French Toast</div>
+      <div class="case-tab" data-case="case2">🍗🥣 Buffalo Wings</div>
+      <div class="case-tab" data-case="case3">✂️✈️ Paper Airplane Craft</div>
+    </div>
+    
+    <div class="dashboard-app">
+      <div class="dash-column">
+        <video id="dash-video" controls muted preload="auto"></video>
+        <div class="goal-header-card">
+          <div class="dash-label">Goal Description</div>
+          <div id="goal-text" class="dash-content">Loading goal...</div>
+        </div>
+        <div class="timeline-container" id="timeline-list"></div>
+      </div>
+      
+      <div class="dash-column">
+        <div class="dash-card">
+          <div class="dash-header"><h3>Current State</h3></div>
+          <div id="world-state-list" class="dash-scroll-area"></div>
+        </div>
+      </div>
+      
+      <div class="dash-column">
+        <div class="dash-card">
+          <div class="dash-header"><h3>Goal State</h3></div>
+          <div id="goal-state-list" class="dash-scroll-area"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX" style="padding-top: 0;">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3 has-text-centered" style="font-family: 'Google Sans', sans-serif;">Citation</h2>
+    <div class="columns is-centered">
+      <div class="column is-8 has-text-centered">
+        <pre style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; color: #64748b; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);"><code style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Waiting to be released</code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    
+    const CASE_CONFIG = {
+      "case1": {
+        video: "./static/videos/TXlL1SMe5LU.mp4",
+        json: "./static/example/TXlL1SMe5LU_web.json"
+      },
+      "case2": {
+        video: "./static/videos/7aKWvE7-jHQ.mp4", 
+        json: "./static/example/7aKWvE7-jHQ_web.json" 
+      },
+      "case3": {
+        video: "./static/videos/mBvDpprlIvs.mp4", 
+        json: "./static/example/mBvDpprlIvs_web.json" 
+      }
+    };
+
+    let currentTimeline = [];
+    const video = document.getElementById('dash-video');
+    const goalList = document.getElementById('goal-state-list');
+    const worldList = document.getElementById('world-state-list');
+    const tlList = document.getElementById('timeline-list');
+    const goalText = document.getElementById('goal-text');
+
+    let isSyncingLeftScroll = false;
+    let isSyncingRightScroll = false;
+    worldList.addEventListener('scroll', function() {
+      if (!isSyncingLeftScroll) {
+        isSyncingRightScroll = true;
+        goalList.scrollTop = this.scrollTop;
+      }
+      isSyncingLeftScroll = false;
+    });
+    goalList.addEventListener('scroll', function() {
+      if (!isSyncingRightScroll) {
+        isSyncingLeftScroll = true;
+        worldList.scrollTop = this.scrollTop;
+      }
+      isSyncingRightScroll = false;
+    });
+
+    function escape(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+
+    function renderWithFLIP(container, data) {
+      const rects = new Map();
+      Array.from(container.children).forEach(el => rects.set(el.dataset.id, el.getBoundingClientRect()));
+      const currentIds = new Set(data.map(d => d.object));
+      Array.from(container.children).forEach(el => { if(!currentIds.has(el.dataset.id)) el.remove(); });
+
+      data.forEach((card) => {
+        let el = container.querySelector(`[data-id="${card.object}"]`);
+        if (!el) { el = document.createElement('div'); el.dataset.id = card.object; container.appendChild(el); }
+        
+        const isGhost = card.attributes.every(attr => attr.status === 'placeholder' || attr.value === '—');
+        const finalMode = isGhost ? 'idle' : card.mode;
+        
+        el.className = 'state-card mode-' + finalMode;
+        let html = `<div class="card-title">${escape(card.display_object || card.object)}</div>`;
+        
+        card.attributes.forEach(attr => {
+          html += `<div class="dash-attr ${attr.status}"><strong>${escape(attr.key)}:</strong> <span>${escape(attr.value)}</span></div>`;
+        });
+        
+        el.innerHTML = html;
+        container.appendChild(el);
+      });
+
+      requestAnimationFrame(() => {
+        Array.from(container.children).forEach((el, index) => {
+          const prev = rects.get(el.dataset.id);
+          if (!prev) return;
+          const cur = el.getBoundingClientRect();
+          const dy = prev.top - cur.top;
+          if (dy !== 0) {
+            el.style.transition = 'none'; el.style.transform = `translateY(${dy}px)`; el.classList.add('moving');
+            requestAnimationFrame(() => {
+              el.style.transition = `all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${index * 25}ms`; el.style.transform = 'translateY(0)';
+              setTimeout(() => el.classList.remove('moving'), 700 + (index * 25));
+            });
+          }
+        });
+      });
+    }
+
+    let lastIdx = -1;
+    function update() {
+      if(currentTimeline.length === 0) return;
+      const t = video.currentTime;
+      let active = 0;
+      for(let i=0; i<currentTimeline.length; i++) { if (t >= currentTimeline[i].start && t < currentTimeline[i].end) { active = i; break; } }
+      
+      if (active !== lastIdx) {
+        lastIdx = active;
+        renderWithFLIP(goalList, currentTimeline[active].state);
+        renderWithFLIP(worldList, currentTimeline[active].world_state);
+        
+        Array.from(tlList.children).forEach((el, i) => { 
+          el.classList.toggle('active', i === active); 
+          if(i === active) {
+            const targetPos = el.offsetTop - (tlList.clientHeight / 2) + (el.clientHeight / 2);
+            tlList.scrollTo({ top: targetPos, behavior: 'smooth' });
+          }
+        });
+      }
+      
+      currentTimeline.forEach((seg, i) => {
+        const rPanel = document.getElementById(`reward-panel-${i}`);
+        const rLabel = rPanel.querySelector('.r-label');
+        const miniBar = document.getElementById(`mini-progress-${i}`);
+        if (!rPanel) return;
+        if (t >= seg.start) {
+            rPanel.classList.add('active');
+            if (i === active) {
+                const remaining = Math.max(0, seg.end - t);
+                const stepPercent = ((t - seg.start) / (seg.end - seg.start)) * 100;
+                rLabel.textContent = `${remaining.toFixed(1)}s`;
+                miniBar.style.width = Math.min(stepPercent, 100) + '%';
+            } else if (i < active) {
+                rLabel.textContent = "REWARD";
+                miniBar.style.width = '100%';
+            }
+        } else {
+            rPanel.classList.remove('active');
+            rLabel.textContent = "REWARD";
+            miniBar.style.width = '0%';
+        }
+      });
+    }
+
+    video.addEventListener('timeupdate', update);
+
+    function loadCase(caseKey) {
+      const config = CASE_CONFIG[caseKey];
+      if(!config) return;
+
+      video.src = config.video;
+      goalText.textContent = "Loading...";
+      tlList.innerHTML = '';
+      worldList.innerHTML = '';
+      goalList.innerHTML = '';
+      lastIdx = -1;
+      currentTimeline = [];
+
+      fetch(config.json)
+        .then(response => {
+          if (!response.ok) throw new Error('Failed to load JSON');
+          return response.json();
+        })
+        .then(data => {
+          currentTimeline = data.timeline;
+          goalText.textContent = data.goal;
+
+          if(!currentTimeline || currentTimeline.length === 0) {
+            goalText.textContent = "⚠️ Timeline is empty.";
+            return;
+          }
+
+          currentTimeline.forEach((seg, i) => {
+            const div = document.createElement('div');
+            div.className = 'step-item';
+            div.id = `step-item-${i}`;
+            const rVal = seg.reward != null ? seg.reward.toFixed(2) : '--';
+            div.innerHTML = `<div class="step-main"><div class="step-info"><div class="step-num">Step ${i}</div><div class="step-title">${seg.title}</div></div><div class="reward-panel" id="reward-panel-${i}"><div class="r-label">REWARD</div><div class="r-value">${rVal}</div></div></div><div class="step-mini-progress" id="mini-progress-${i}"></div>`;
+            
+            div.onclick = () => { 
+                const targetTime = parseFloat(seg.start) + 0.1;
+                video.pause(); 
+                
+                const performJump = () => {
+                    video.currentTime = targetTime;
+                    setTimeout(() => {
+                        video.play().catch(e => console.warn("Auto-play blocked by browser:", e));
+                    }, 50);
+                };
+
+                if (video.readyState >= 1) {
+                    performJump();
+                } else {
+                    video.addEventListener('loadedmetadata', performJump, { once: true });
+                    video.load(); 
+                }
+            };
+            tlList.appendChild(div);
+          });
+
+          update();
+        })
+        .catch(error => {
+          console.error('Fetch error:', error);
+          goalText.innerHTML = "<span style='color:red;'>⚠️ Failed to load JSON. Check if file exists.</span>";
+        });
+    }
+
+    const tabs = document.querySelectorAll('.case-tab');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        tabs.forEach(t => t.classList.remove('active'));
+        e.target.classList.add('active');
+        const caseKey = e.target.getAttribute('data-case');
+        loadCase(caseKey);
+      });
+    });
+
+    loadCase("case1");
+
+  });
+</script>
+
+</body>
+</html>

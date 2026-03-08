@@ -1,0 +1,1499 @@
+{
+  "goal": "Prepare French toast with a raspberry topping and serve it with warm maple syrup...",
+  "timeline": [
+    {
+      "title": "Cut bread into slices about an inch thick",
+      "start": 0.0,
+      "end": 8.3,
+      "state": [
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.37
+    },
+    {
+      "title": "Whisk together eggs, milk, vanilla extract, salt, and optional sugar, cinnamon, or nutmeg",
+      "start": 8.3,
+      "end": 28.6,
+      "state": [
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.51
+    },
+    {
+      "title": "Soak bread slices in the egg mixture",
+      "start": 28.6,
+      "end": 36.1,
+      "state": [
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.54
+    },
+    {
+      "title": "Cook the soaked bread slices in a pan with butter or oil over medium heat",
+      "start": 36.1,
+      "end": 41.5,
+      "state": [
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "neutral"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "neutral"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.67
+    },
+    {
+      "title": "Smash raspberries with sugar to create a chunky, fresh jam",
+      "start": 41.5,
+      "end": 49.6,
+      "state": [
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "neutral"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "neutral"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.79
+    },
+    {
+      "title": "Top the cooked French toast with the raspberry jam and drizzle with warm maple syrup",
+      "start": 49.6,
+      "end": 66.33,
+      "state": [
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "newly-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "already-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "Ready",
+              "value": "The cooked French toast is ready to be served.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "placeholder"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is served with warm maple syrup and raspberry topping.",
+              "status": "not-achieved"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "maple syrup",
+          "attributes": [
+            {
+              "key": "Drizzle",
+              "value": "The maple syrup has been drizzled over the French toast.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Temperature",
+              "value": "The maple syrup is warm.",
+              "status": "newly-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "raspberry topping",
+          "attributes": [
+            {
+              "key": "Applied",
+              "value": "The raspberry topping has been applied to the French toast.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "Composition",
+              "value": "The raspberry topping is made from raspberries and sugar.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The raspberry topping is chunky and fresh.",
+              "status": "already-achieved"
+            }
+          ],
+          "score": 1000000,
+          "mode": "active"
+        },
+        {
+          "object": "bread slices",
+          "attributes": [
+            {
+              "key": "Soaked",
+              "value": "The bread slices are soaked in the egg mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Thickness",
+              "value": "The bread slices are cut to about an inch thick.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Uniformity",
+              "value": "The bread slices are uniform in thickness.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Color",
+              "value": "The bread slices are golden brown.",
+              "status": "neutral"
+            },
+            {
+              "key": "Flavor",
+              "value": "The bread slices have added flavor from butter or oil.",
+              "status": "neutral"
+            },
+            {
+              "key": "Texture",
+              "value": "The bread slices have a crispy exterior and a cooked interior.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "cooked French toast",
+          "attributes": [
+            {
+              "key": "Color",
+              "value": "The French toast is golden brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The French toast has a crispy exterior and a cooked interior.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Moisture",
+              "value": "The French toast is moist and flavorful.",
+              "status": "placeholder"
+            },
+            {
+              "key": "Ready",
+              "value": "The cooked French toast is ready to be served.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "egg mixture",
+          "attributes": [
+            {
+              "key": "Composition",
+              "value": "The egg mixture is prepared with eggs, milk, vanilla extract, salt, sugar, cinnamon, and nutmeg.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "Texture",
+              "value": "The batter is smooth and consistent.",
+              "status": "neutral"
+            }
+          ],
+          "score": 1000,
+          "mode": "active"
+        },
+        {
+          "object": "served dish",
+          "attributes": [
+            {
+              "key": "Serving",
+              "value": "The French toast is ready to be served.",
+              "status": "neutral"
+            }
+          ],
+          "score": 0,
+          "mode": "active"
+        }
+      ],
+      "reward": 0.96
+    }
+  ]
+}
