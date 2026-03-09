@@ -1,0 +1,5961 @@
+{
+  "goal": "Prepare and serve buffalo chicken wings with a creamy dip...",
+  "timeline": [
+    {
+      "title": "Pan the camera from the sofa, across the sliding glass door, to the kitchen island, revealing the countertops, sink, bar stools and stainless‑steel appliances.",
+      "start": 0.0,
+      "end": 6.0,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "has sink",
+              "value": "The kitchen island has a sink.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            },
+            {
+              "key": "type",
+              "value": "The sink is a kitchen sink.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "placeholder"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "has sink",
+              "value": "The kitchen island has a sink.",
+              "status": "neutral"
+            },
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            },
+            {
+              "key": "type",
+              "value": "The sink is a kitchen sink.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.15
+    },
+    {
+      "title": "Drizzle the red buffalo sauce over the chicken wings, then combine sour cream, cream cheese, yogurt and mayonnaise in a cup, blend the mixture until smooth, and pour it into a serving bowl.",
+      "start": 6.0,
+      "end": 30.15,
+      "state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "serving bowl",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The serving bowl receives the creamy dip.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate piled with baked chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.37
+    },
+    {
+      "title": "Combine the chopped parsley and salt with the creamy mixture in the glass bowl, then stir thoroughly with the black spoon until the dip is smooth and evenly blended.",
+      "start": 30.15,
+      "end": 41.52,
+      "state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "placeholder"
+            },
+            {
+              "key": "in_bowl",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "in_bowl",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "added",
+              "value": "A pinch of salt is added to the bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contains",
+              "value": "The clear glass bowl contains the creamy mixture.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl rests on a wooden board on a white countertop.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "neutral"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smooth",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate piled with baked chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "neutral"
+            },
+            {
+              "key": "in_bowl",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "in_bowl",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "added",
+              "value": "A pinch of salt is added to the bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.55
+    },
+    {
+      "title": "Place the foil on the baking sheet, set the wire rack onto the foil, and use tongs to pick up a raw chicken wing.",
+      "start": 41.52,
+      "end": 46.64,
+      "state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "placeholder"
+            },
+            {
+              "key": "in_bowl",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "in_bowl",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "added",
+              "value": "A pinch of salt is added to the bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "tray of raw, lightly seasoned chicken wings",
+          "display_object": "tray of raw, lightly seasoned chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The tray contains raw, lightly seasoned chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contains",
+              "value": "The clear glass bowl contains the creamy mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl rests on a wooden board on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "neutral"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smooth",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate piled with baked chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "neutral"
+            },
+            {
+              "key": "in_bowl",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "in_bowl",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "added",
+              "value": "A pinch of salt is added to the bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "tray of raw, lightly seasoned chicken wings",
+          "display_object": "tray of raw, lightly seasoned chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The tray contains raw, lightly seasoned chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.55
+    },
+    {
+      "title": "Place the raw chicken wings onto the cooling rack in the pan, turn them with the tongs to spread them evenly, and sprinkle salt over them from the shaker.",
+      "start": 46.64,
+      "end": 60.4,
+      "state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The pinch of salt is shaken over the raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand-blender",
+          "display_object": "hand-blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal tray loaded with raw chicken wings",
+          "display_object": "metal tray loaded with raw chicken wings",
+          "attributes": [
+            {
+              "key": "loaded",
+              "value": "The metal tray is loaded with raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "raw chicken wings",
+          "display_object": "raw chicken wings",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The raw chicken wings are arranged in a single layer on the wire cooling rack.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "small wooden container (salt shaker)",
+          "display_object": "small wooden container (salt shaker)",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contains",
+              "value": "The clear glass bowl contains the creamy mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl rests on a wooden board on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "neutral"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smooth",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniform",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate piled with baked chicken wings",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "neutral"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The pinch of salt is shaken over the raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand-blender",
+          "display_object": "hand-blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal tray loaded with raw chicken wings",
+          "display_object": "metal tray loaded with raw chicken wings",
+          "attributes": [
+            {
+              "key": "loaded",
+              "value": "The metal tray is loaded with raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "raw chicken wings",
+          "display_object": "raw chicken wings",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The raw chicken wings are arranged in a single layer on the wire cooling rack.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "small wooden container (salt shaker)",
+          "display_object": "small wooden container (salt shaker)",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.55
+    },
+    {
+      "title": "Press the oven controls to set the temperature, open the oven door, slide the rack into place, place the tray of raw chicken wings onto the rack, and close the door.",
+      "start": 60.4,
+      "end": 70.614,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The pinch of salt is shaken over the raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand-blender",
+          "display_object": "hand-blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal tray loaded with raw chicken wings",
+          "display_object": "metal tray loaded with raw chicken wings",
+          "attributes": [
+            {
+              "key": "loaded",
+              "value": "The metal tray is loaded with raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "small wooden container (salt shaker)",
+          "display_object": "small wooden container (salt shaker)",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal tray",
+          "display_object": "metal tray",
+          "attributes": [
+            {
+              "key": "position_and_contents",
+              "value": "The metal tray holds pale raw chicken wings and is placed on the rack.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven control panel",
+          "display_object": "oven control panel",
+          "attributes": [
+            {
+              "key": "buttons_pressed",
+              "value": "The oven control panel has two buttons pressed.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven door",
+          "display_object": "oven door",
+          "attributes": [
+            {
+              "key": "door_state",
+              "value": "The oven door is shut.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven light",
+          "display_object": "oven light",
+          "attributes": [
+            {
+              "key": "illumination",
+              "value": "The oven light illuminates the interior.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "rack",
+          "display_object": "rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The rack is positioned in the oven.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "raw chicken wings",
+          "attributes": [
+            {
+              "key": "appearance_and_position",
+              "value": "The raw chicken wings are pale and arranged on the metal tray.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contains_mixture",
+              "value": "The clear glass bowl contains the creamy mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl rests on a wooden board on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "neutral"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "neutral"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "pinch of salt",
+          "display_object": "pinch of salt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The pinch of salt is shaken over the raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "raw chicken wing",
+          "display_object": "raw chicken wing",
+          "attributes": [
+            {
+              "key": "status",
+              "value": "The raw chicken wing is picked up by the kitchen tongs.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stainless‑steel wire rack",
+          "display_object": "stainless‑steel wire rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand-blender",
+          "display_object": "hand-blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal tray loaded with raw chicken wings",
+          "display_object": "metal tray loaded with raw chicken wings",
+          "attributes": [
+            {
+              "key": "loaded",
+              "value": "The metal tray is loaded with raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "small wooden container (salt shaker)",
+          "display_object": "small wooden container (salt shaker)",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal tray",
+          "display_object": "metal tray",
+          "attributes": [
+            {
+              "key": "position_and_contents",
+              "value": "The metal tray holds pale raw chicken wings and is placed on the rack.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven control panel",
+          "display_object": "oven control panel",
+          "attributes": [
+            {
+              "key": "buttons_pressed",
+              "value": "The oven control panel has two buttons pressed.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven door",
+          "display_object": "oven door",
+          "attributes": [
+            {
+              "key": "door_state",
+              "value": "The oven door is shut.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven light",
+          "display_object": "oven light",
+          "attributes": [
+            {
+              "key": "illumination",
+              "value": "The oven light illuminates the interior.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "rack",
+          "display_object": "rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The rack is positioned in the oven.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.61
+    },
+    {
+      "title": "Using tongs, the cook lifts each wing from the rack, dips it into the butter‑hot‑sauce mixture to fully cover it, and returns the coated wing to the rack.",
+      "start": 70.614,
+      "end": 93.68,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "rest_on_rack",
+              "value": "The golden‑brown chicken wings rest on a metal wire rack.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven control panel",
+          "display_object": "oven control panel",
+          "attributes": [
+            {
+              "key": "buttons_pressed",
+              "value": "The oven control panel has two buttons pressed.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven door",
+          "display_object": "oven door",
+          "attributes": [
+            {
+              "key": "door_state",
+              "value": "The oven door is shut.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "oven light",
+          "display_object": "oven light",
+          "attributes": [
+            {
+              "key": "illumination",
+              "value": "The oven light illuminates the interior.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "rack",
+          "display_object": "rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The rack is positioned in the oven.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black‑tipped tongs",
+          "display_object": "black‑tipped tongs",
+          "attributes": [
+            {
+              "key": "used_to_dip",
+              "value": "The black‑tipped tongs are used to dip the wings into the sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "butter cubes",
+          "display_object": "butter cubes",
+          "attributes": [
+            {
+              "key": "melted",
+              "value": "The butter cubes are melted in the hot skillet.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "garlic powder",
+          "display_object": "garlic powder",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The garlic powder is added to the sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hot sauce",
+          "display_object": "hot sauce",
+          "attributes": [
+            {
+              "key": "added_to_butter",
+              "value": "The hot sauce is added to the melted butter.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hot skillet",
+          "display_object": "hot skillet",
+          "attributes": [
+            {
+              "key": "contains_melted_butter",
+              "value": "The hot skillet contains melted butter.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "large glass bowl",
+          "display_object": "large glass bowl",
+          "attributes": [
+            {
+              "key": "contains_melted_butter_and_sauce",
+              "value": "The large glass bowl contains the melted butter and sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "melted butter",
+          "display_object": "melted butter",
+          "attributes": [
+            {
+              "key": "poured_into_bowl",
+              "value": "The melted butter is poured into a large glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "salt",
+          "display_object": "salt",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The salt is added to the sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sauce",
+          "display_object": "sauce",
+          "attributes": [
+            {
+              "key": "smooth_orange_red",
+              "value": "The sauce is smooth orange‑red.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "small wooden container",
+          "display_object": "small wooden container",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "sugar",
+          "display_object": "sugar",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The sugar is added to the sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wire rack",
+          "display_object": "wire rack",
+          "attributes": [
+            {
+              "key": "holds_wings",
+              "value": "The metal wire rack holds the golden‑brown chicken wings.",
+              "status": "placeholder"
+            },
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wooden spatula",
+          "display_object": "wooden spatula",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The wooden spatula is used to stir the sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "golden‑brown chicken wings",
+          "attributes": [
+            {
+              "key": "coated_evenly",
+              "value": "The golden‑brown chicken wings are coated evenly.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            },
+            {
+              "key": "rest_on_rack",
+              "value": "The golden‑brown chicken wings rest on a metal wire rack.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "contains_mixture",
+              "value": "The clear glass bowl contains the creamy mixture.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The clear glass bowl rests on a wooden board on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contains_parsley",
+              "value": "The clear glass bowl contains the chopped parsley.",
+              "status": "neutral"
+            },
+            {
+              "key": "contains_salt",
+              "value": "The clear glass bowl contains a pinch of salt.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate is piled with baked chicken wings.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "dark wood cabinets",
+          "display_object": "dark wood cabinets",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has dark wood cabinets.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen island",
+          "display_object": "kitchen island",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The kitchen island is located in the center of the kitchen.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "microwave",
+          "display_object": "microwave",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The microwave is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "refrigerator",
+          "display_object": "refrigerator",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The refrigerator is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sink",
+          "display_object": "sink",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The sink is located on the kitchen island.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "stove",
+          "display_object": "stove",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The stove is a stainless‑steel appliance.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertops",
+          "display_object": "white countertops",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The kitchen has white countertops.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "cream cheese",
+          "display_object": "cream cheese",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The cream cheese is spooned in.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "ladle",
+          "display_object": "ladle",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The ladle pours bright red buffalo sauce over the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "mayonnaise",
+          "display_object": "mayonnaise",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The mayonnaise is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sour cream",
+          "display_object": "sour cream",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The sour cream is poured into a cup.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "yogurt",
+          "display_object": "yogurt",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The yogurt is added.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "chopped parsley",
+          "display_object": "chopped parsley",
+          "attributes": [
+            {
+              "key": "finely_chopped",
+              "value": "The parsley is finely chopped.",
+              "status": "neutral"
+            },
+            {
+              "key": "location",
+              "value": "The chopped parsley is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "creamy mixture",
+          "display_object": "creamy mixture",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The creamy mixture is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large black spoon",
+          "display_object": "large black spoon",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The large black spoon is used to stir the contents.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "kitchen tongs",
+          "display_object": "kitchen tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The kitchen tongs are used to pick up a raw chicken wing.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal baking tray",
+          "display_object": "metal baking tray",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The metal baking tray is positioned under the sheet of tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sheet of tin foil",
+          "display_object": "sheet of tin foil",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The sheet of tin foil is spread across the metal baking tray.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black-handled tongs",
+          "display_object": "black-handled tongs",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black-handled tongs are used to turn the raw chicken wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "empty metal baking pan",
+          "display_object": "empty metal baking pan",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The empty metal baking pan is on the light-colored wooden countertop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "light-colored wooden countertop",
+          "display_object": "light-colored wooden countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The light-colored wooden countertop is the surface on which the metal baking pan rests.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wire cooling rack",
+          "display_object": "wire cooling rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The wire cooling rack rests in an empty metal baking pan.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven control panel",
+          "display_object": "oven control panel",
+          "attributes": [
+            {
+              "key": "buttons_pressed",
+              "value": "The oven control panel has two buttons pressed.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven door",
+          "display_object": "oven door",
+          "attributes": [
+            {
+              "key": "door_state",
+              "value": "The oven door is shut.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "oven light",
+          "display_object": "oven light",
+          "attributes": [
+            {
+              "key": "illumination",
+              "value": "The oven light illuminates the interior.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "rack",
+          "display_object": "rack",
+          "attributes": [
+            {
+              "key": "position",
+              "value": "The rack is positioned in the oven.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black‑tipped tongs",
+          "display_object": "black‑tipped tongs",
+          "attributes": [
+            {
+              "key": "used_to_dip",
+              "value": "The black‑tipped tongs are used to dip the wings into the sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "butter cubes",
+          "display_object": "butter cubes",
+          "attributes": [
+            {
+              "key": "melted",
+              "value": "The butter cubes are melted in the hot skillet.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "garlic powder",
+          "display_object": "garlic powder",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The garlic powder is added to the sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand‑blender",
+          "display_object": "hand‑blender",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand‑blender blends the mixture until smooth.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hot sauce",
+          "display_object": "hot sauce",
+          "attributes": [
+            {
+              "key": "added_to_butter",
+              "value": "The hot sauce is added to the melted butter.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hot skillet",
+          "display_object": "hot skillet",
+          "attributes": [
+            {
+              "key": "contains_melted_butter",
+              "value": "The hot skillet contains melted butter.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "large glass bowl",
+          "display_object": "large glass bowl",
+          "attributes": [
+            {
+              "key": "contains_melted_butter_and_sauce",
+              "value": "The large glass bowl contains the melted butter and sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "melted butter",
+          "display_object": "melted butter",
+          "attributes": [
+            {
+              "key": "poured_into_bowl",
+              "value": "The melted butter is poured into a large glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "salt",
+          "display_object": "salt",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The salt is added to the sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sauce",
+          "display_object": "sauce",
+          "attributes": [
+            {
+              "key": "smooth_orange_red",
+              "value": "The sauce is smooth orange‑red.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "small wooden container",
+          "display_object": "small wooden container",
+          "attributes": [
+            {
+              "key": "type",
+              "value": "The small wooden container is a salt shaker.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "sugar",
+          "display_object": "sugar",
+          "attributes": [
+            {
+              "key": "added_to_sauce",
+              "value": "The sugar is added to the sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wire rack",
+          "display_object": "wire rack",
+          "attributes": [
+            {
+              "key": "holds_wings",
+              "value": "The metal wire rack holds the golden‑brown chicken wings.",
+              "status": "neutral"
+            },
+            {
+              "key": "position",
+              "value": "The stainless‑steel wire rack is positioned on top of the tin foil.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wooden spatula",
+          "display_object": "wooden spatula",
+          "attributes": [
+            {
+              "key": "used_to_stir",
+              "value": "The wooden spatula is used to stir the sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.61
+    },
+    {
+      "title": "Using metal tongs, lift the baked chicken wings and drumsticks from the bowl, turn them over and toss them repeatedly in the red buffalo sauce until fully coated, then place the coated pieces onto a white plate.",
+      "start": 93.68,
+      "end": 102.96,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "handled",
+              "value": "The baked chicken wings and drumsticks are lifted with tongs.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains bright red buffalo sauce.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "bright red buffalo sauce",
+          "display_object": "bright red buffalo sauce",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The bright red buffalo sauce coats the wings evenly.",
+              "status": "placeholder"
+            },
+            {
+              "key": "location",
+              "value": "The bright red buffalo sauce is in the clear glass bowl.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "metal tongs",
+          "display_object": "metal tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The metal tongs lift the sauced pieces.",
+              "status": "placeholder"
+            },
+            {
+              "key": "usage",
+              "value": "The metal tongs are used to lift and toss the wings.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings and drumsticks",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The baked chicken wings and drumsticks are coated in bright red buffalo sauce.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "placeholder"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "placeholder"
+            },
+            {
+              "key": "handled",
+              "value": "The baked chicken wings and drumsticks are lifted with tongs.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "placeholder"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains bright red buffalo sauce.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The dip is smooth and evenly blended.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "uniformity",
+              "value": "The dip is uniform.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate contains the coated wings and drumsticks.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "bright red buffalo sauce",
+          "display_object": "bright red buffalo sauce",
+          "attributes": [
+            {
+              "key": "coating",
+              "value": "The bright red buffalo sauce coats the wings evenly.",
+              "status": "neutral"
+            },
+            {
+              "key": "location",
+              "value": "The bright red buffalo sauce is in the clear glass bowl.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "metal tongs",
+          "display_object": "metal tongs",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The metal tongs lift the sauced pieces.",
+              "status": "neutral"
+            },
+            {
+              "key": "usage",
+              "value": "The metal tongs are used to lift and toss the wings.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.63
+    },
+    {
+      "title": "Pour the red sauce over the plated wings, then lift a wing and dip it into the white creamy dip.",
+      "start": 102.96,
+      "end": 111.28,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "specks",
+              "value": "The white creamy dip contains tiny specks.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand",
+          "display_object": "hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand lifts a sauced wing and briefly submerges it into the creamy dip.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "submerged",
+              "value": "The baked chicken wings are briefly submerged in the creamy dip.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains a white creamy dip.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "specks",
+              "value": "The white creamy dip contains tiny specks.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate contains the coated wings and drumsticks.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand",
+          "display_object": "hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The hand lifts a sauced wing and briefly submerges it into the creamy dip.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.86
+    },
+    {
+      "title": "Show a rapid succession of food photographs on screen while a hand briefly pours dark sauce, spoons yellow sauce onto meat, dips a fry into ketchup, and cuts a brownie, overlaying channel branding and thank‑you text.",
+      "start": 111.28,
+      "end": 119.68,
+      "state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "served",
+              "value": "The baked chicken wings are served on the plate.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains the white creamy dip.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "specks",
+              "value": "The white creamy dip contains tiny specks.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "final_state",
+              "value": "The white plate contains the buffalo chicken wings and the creamy dip.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "hand",
+          "display_object": "hand",
+          "attributes": [
+            {
+              "key": "action_1",
+              "value": "A hand holds a metal spatula and pours a dark sauce over a cooked black circular dish.",
+              "status": "placeholder"
+            },
+            {
+              "key": "action_2",
+              "value": "A hand dips an orange fry into ketchup.",
+              "status": "placeholder"
+            },
+            {
+              "key": "action_3",
+              "value": "A hand cuts into a brownie using a utensil (implied by cutting).",
+              "status": "placeholder"
+            },
+            {
+              "key": "context",
+              "value": "The hands appear in a fast-moving series of promotional stills over a white-grey background.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "baked chicken wings",
+          "display_object": "baked chicken wings",
+          "attributes": [
+            {
+              "key": "color",
+              "value": "The baked chicken wings are golden‑brown.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "coating",
+              "value": "The baked chicken wings are coated in bright red buffalo sauce.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "submerged",
+              "value": "The baked chicken wings are briefly submerged in the creamy dip.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "clear glass bowl",
+          "display_object": "clear glass bowl",
+          "attributes": [
+            {
+              "key": "location",
+              "value": "The clear glass bowl sits on a white countertop.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "contents",
+              "value": "The clear glass bowl contains a white creamy dip.",
+              "status": "already-achieved"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white creamy dip",
+          "display_object": "white creamy dip",
+          "attributes": [
+            {
+              "key": "smoothness",
+              "value": "The white creamy dip is smooth.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ingredients",
+              "value": "The white creamy dip is made from sour cream, cream cheese, yogurt, mayonnaise, and parsley.",
+              "status": "placeholder"
+            },
+            {
+              "key": "specks",
+              "value": "The white creamy dip contains tiny specks.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white plate",
+          "display_object": "white plate",
+          "attributes": [
+            {
+              "key": "content",
+              "value": "The white plate contains the plated wings and drumsticks.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "visual_appeal",
+              "value": "The white plate is visually appealing.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white countertop",
+          "display_object": "white countertop",
+          "attributes": [
+            {
+              "key": "surface",
+              "value": "The white countertop is the surface on which the clear glass bowl sits.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "hand",
+          "display_object": "hand",
+          "attributes": [
+            {
+              "key": "action_1",
+              "value": "A hand holds a metal spatula and pours a dark sauce over a cooked black circular dish.",
+              "status": "neutral"
+            },
+            {
+              "key": "action_2",
+              "value": "A hand dips an orange fry into ketchup.",
+              "status": "neutral"
+            },
+            {
+              "key": "action_3",
+              "value": "A hand cuts into a brownie using a utensil (implied by cutting).",
+              "status": "neutral"
+            },
+            {
+              "key": "context",
+              "value": "The hands appear in a fast-moving series of promotional stills over a white-grey background.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.86
+    }
+  ]
+}

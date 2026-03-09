@@ -1,0 +1,829 @@
+{
+  "goal": "Create a decorated paper airplane and demonstrate a rotating cup...",
+  "timeline": [
+    {
+      "title": "Grasp the white paper and lift it off the wooden surface.",
+      "start": 0.0,
+      "end": 10.6,
+      "state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "decorated paper airplane",
+          "attributes": [
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "shape",
+              "value": "The decorated paper airplane is rocket-shaped.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black Sharpie",
+          "display_object": "black Sharpie",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The black Sharpie is arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "purple‑handled scissors",
+          "display_object": "purple‑handled scissors",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The purple‑handled scissors are arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "spool of red thread",
+          "display_object": "spool of red thread",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The spool of red thread is arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "unseen hand",
+          "display_object": "unseen hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The unseen hand is reaching toward the paper and lifting it off the tabletop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white sheet of paper",
+          "display_object": "white sheet of paper",
+          "attributes": [
+            {
+              "key": "curvature",
+              "value": "The white sheet of paper is slightly curled at one corner.",
+              "status": "placeholder"
+            },
+            {
+              "key": "position",
+              "value": "The white sheet of paper is being lifted off the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "decorated paper airplane",
+          "attributes": [
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "placeholder"
+            },
+            {
+              "key": "shape",
+              "value": "The decorated paper airplane is rocket-shaped.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "placeholder"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black Sharpie",
+          "display_object": "black Sharpie",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The black Sharpie is arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "purple‑handled scissors",
+          "display_object": "purple‑handled scissors",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The purple‑handled scissors are arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "spool of red thread",
+          "display_object": "spool of red thread",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The spool of red thread is arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "unseen hand",
+          "display_object": "unseen hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The unseen hand is reaching toward the paper and lifting it off the tabletop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white sheet of paper",
+          "display_object": "white sheet of paper",
+          "attributes": [
+            {
+              "key": "curvature",
+              "value": "The white sheet of paper is slightly curled at one corner.",
+              "status": "neutral"
+            },
+            {
+              "key": "position",
+              "value": "The white sheet of paper is being lifted off the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.17
+    },
+    {
+      "title": "Roll a sheet of white paper into a tight tube, trim the tip with scissors, fold the tube into a rocket‑shaped airplane, apply glue to the tip, roll the tail for stability, and hold up the completed craft.",
+      "start": 10.6,
+      "end": 51.67,
+      "state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "decorated paper airplane",
+          "attributes": [
+            {
+              "key": "shape",
+              "value": "The decorated paper airplane is rocket-shaped.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "display",
+              "value": "The paper airplane is lifted up for display.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black Sharpie",
+          "display_object": "black Sharpie",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The black Sharpie is arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "purple‑handled scissors",
+          "display_object": "purple‑handled scissors",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The purple‑handled scissors are arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "spool of red thread",
+          "display_object": "spool of red thread",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The spool of red thread is arranged on the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "unseen hand",
+          "display_object": "unseen hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The unseen hand is reaching toward the paper and lifting it off the tabletop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "white sheet of paper",
+          "display_object": "white sheet of paper",
+          "attributes": [
+            {
+              "key": "curvature",
+              "value": "The white sheet of paper is crumpled.",
+              "status": "placeholder"
+            },
+            {
+              "key": "position",
+              "value": "The white sheet of paper is being lifted off the wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "paper airplane",
+          "attributes": [
+            {
+              "key": "shape",
+              "value": "The paper airplane is rocket-shaped.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "placeholder"
+            },
+            {
+              "key": "display",
+              "value": "The paper airplane is lifted up for display.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "placeholder"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black Sharpie",
+          "display_object": "black Sharpie",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The black Sharpie is arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "purple‑handled scissors",
+          "display_object": "purple‑handled scissors",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The purple‑handled scissors are arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "spool of red thread",
+          "display_object": "spool of red thread",
+          "attributes": [
+            {
+              "key": "arrangement",
+              "value": "The spool of red thread is arranged on the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "unseen hand",
+          "display_object": "unseen hand",
+          "attributes": [
+            {
+              "key": "action",
+              "value": "The unseen hand is reaching toward the paper and lifting it off the tabletop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "white sheet of paper",
+          "display_object": "white sheet of paper",
+          "attributes": [
+            {
+              "key": "curvature",
+              "value": "The white sheet of paper is crumpled.",
+              "status": "neutral"
+            },
+            {
+              "key": "position",
+              "value": "The white sheet of paper is being lifted off the wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.43
+    },
+    {
+      "title": "Wrap the toilet‑paper around the paper tube, cut both ends at an angle to create sharp points, and write “dot” on the surface with a black marker.",
+      "start": 51.67,
+      "end": 108.2,
+      "state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "decorated paper airplane",
+          "attributes": [
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "shape",
+              "value": "The decorated paper airplane is rocket-shaped.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ends",
+              "value": "The paper airplane has two ends cut at an angle to produce pointed tips.",
+              "status": "placeholder"
+            },
+            {
+              "key": "wrap",
+              "value": "The paper airplane is wrapped with toilet-paper.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "not-achieved"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "not-achieved"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black marker",
+          "display_object": "black marker",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black marker is used to write the word 'dot' on the paper airplane.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "toilet-paper",
+          "display_object": "toilet-paper",
+          "attributes": [
+            {
+              "key": "wrap",
+              "value": "The toilet-paper is wound around the paper airplane.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "decorated paper airplane",
+          "display_object": "paper airplane",
+          "attributes": [
+            {
+              "key": "label",
+              "value": "The paper airplane has a 'dot' label written on its wrapped surface.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "shape",
+              "value": "The paper airplane is rocket-shaped.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ends",
+              "value": "The paper airplane has two ends cut at an angle to produce pointed tips.",
+              "status": "neutral"
+            },
+            {
+              "key": "wrap",
+              "value": "The paper airplane is wrapped with toilet-paper.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "placeholder"
+            },
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden surface is a flat wooden tabletop.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black marker",
+          "display_object": "black marker",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black marker is used to write the word 'dot' on the paper airplane.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "toilet-paper",
+          "display_object": "toilet-paper",
+          "attributes": [
+            {
+              "key": "wrap",
+              "value": "The toilet-paper is wound around the paper airplane.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.45
+    },
+    {
+      "title": "Rotate the white cup slowly and continuously about its vertical axis while it remains on the wooden deck.",
+      "start": 108.2,
+      "end": 119.73,
+      "state": [
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The white cup is positioned toward the left side of the view.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "decorated paper airplane",
+          "display_object": "decorated paper airplane",
+          "attributes": [
+            {
+              "key": "shape",
+              "value": "The decorated paper airplane is rocket-shaped.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "label",
+              "value": "The decorated paper airplane has a 'dot' label.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ends",
+              "value": "The paper airplane has two ends cut at an angle to produce pointed tips.",
+              "status": "placeholder"
+            },
+            {
+              "key": "wrap",
+              "value": "The paper airplane is wrapped with toilet-paper.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden deck is a flat reddish‑brown wooden surface.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "black marker",
+          "display_object": "black marker",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black marker is used to write the word 'dot' on the paper airplane.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        },
+        {
+          "object": "toilet-paper",
+          "display_object": "toilet-paper",
+          "attributes": [
+            {
+              "key": "wrap",
+              "value": "The toilet-paper is wound around the paper airplane.",
+              "status": "placeholder"
+            }
+          ],
+          "mode": "ghost"
+        }
+      ],
+      "world_state": [
+        {
+          "object": "white cup",
+          "display_object": "white cup",
+          "attributes": [
+            {
+              "key": "rotation",
+              "value": "The white cup is rotating slowly on its vertical axis.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "display_location",
+              "value": "The white cup is displayed on the wooden deck.",
+              "status": "newly-achieved"
+            },
+            {
+              "key": "location",
+              "value": "The white cup is positioned toward the left side of the view.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "decorated paper airplane",
+          "display_object": "paper airplane",
+          "attributes": [
+            {
+              "key": "shape",
+              "value": "The paper airplane is rocket-shaped.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "label",
+              "value": "The paper airplane has a 'dot' label written on its wrapped surface.",
+              "status": "already-achieved"
+            },
+            {
+              "key": "ends",
+              "value": "The paper airplane has two ends cut at an angle to produce pointed tips.",
+              "status": "neutral"
+            },
+            {
+              "key": "wrap",
+              "value": "The paper airplane is wrapped with toilet-paper.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "active"
+        },
+        {
+          "object": "wooden surface",
+          "display_object": "wooden surface",
+          "attributes": [
+            {
+              "key": "description",
+              "value": "The wooden deck is a flat reddish‑brown wooden surface.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "black marker",
+          "display_object": "black marker",
+          "attributes": [
+            {
+              "key": "usage",
+              "value": "The black marker is used to write the word 'dot' on the paper airplane.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        },
+        {
+          "object": "toilet-paper",
+          "display_object": "toilet-paper",
+          "attributes": [
+            {
+              "key": "wrap",
+              "value": "The toilet-paper is wound around the paper airplane.",
+              "status": "neutral"
+            }
+          ],
+          "mode": "idle"
+        }
+      ],
+      "reward": 0.91
+    }
+  ]
+}
