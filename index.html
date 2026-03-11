@@ -181,7 +181,7 @@
 
           <div class="column has-text-centered">
             <div class="publication-links" style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
-              <span class="link-block"><a href="#" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span></a></span>
+              <span class="link-block"><a href="https://arxiv.org/abs/2603.09400" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span></a></span>
               <span class="link-block"><a href="https://github.com/yijunshens/StateFactory" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>Code</span></a></span>
               <span class="link-block"><a href="https://huggingface.co/datasets/YijunShen/RewardPrediction" class="external-link button is-normal is-rounded is-dark"><span class="icon"><span>🤗</span></span><span>Benchmark</span></a></span>
             </div>
@@ -373,10 +373,18 @@
 
 <section class="section" id="BibTeX" style="padding-top: 0;">
   <div class="container is-max-widescreen content">
-    <h2 class="title is-3 has-text-centered" style="font-family: 'Google Sans', sans-serif;">Citation</h2>
+    <h2 class="title is-3 has-text-centered" style="font-family: 'Google Sans', sans-serif; margin-bottom: 1.5rem;">Citation</h2>
     <div class="columns is-centered">
-      <div class="column is-8 has-text-centered">
-        <pre style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; color: #64748b; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);"><code style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Waiting to be released</code></pre>
+      <div class="content has-text-justified is-size-5">
+        <pre style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); overflow-x: auto; text-align: left;"><code style="font-family: 'Courier New', Courier, monospace; font-size: 1rem; color: #475569; line-height: 1.6;">@misc{shen2026StateFactory,
+  title         = {Reward Prediction with Factorized World States}, 
+  author        = {Yijun Shen and Delong Chen and Xianming Hu and Jiaming Mi and Hongbo Zhao and Kai Zhang and Pascale Fung},
+  year          = {2026},
+  eprint        = {2603.09400},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2603.09400},
+}</code></pre>
       </div>
     </div>
   </div>
@@ -401,7 +409,7 @@
     };
 
     let currentTimeline = [];
-    // 用来存储永远恒定不变的“终极目标”模板
+
     let globalFinalGoalState = [];
     
     const video = document.getElementById('dash-video');
@@ -412,13 +420,13 @@
 
     function escape(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
 
-    // 【1. Goal State 渲染器】：结构焊死，绝对不会变多或跳动，只更新颜色！
+
     function renderStaticGoal(container, data) {
       data.forEach((card) => {
         let el = container.querySelector(`[data-id="${card.object}"]`);
         if (!el) return; 
         
-        // 强制把所有 Goal State 卡片设为 active（拒绝灰色半透明）
+
         el.className = 'state-card mode-active';
         let html = `<div class="card-title">${escape(card.display_object || card.object)}</div>`;
         card.attributes.forEach(attr => {
@@ -428,12 +436,12 @@
       });
     }
 
-    // 【2. Current State 渲染器】：活跃的置顶，灰色的垫底，且带顺滑动画
+
     function renderDynamicLeft(container, rawData) {
-      // 1. 过滤掉完全没属性的“空壳卡片”
+
       let data = rawData.filter(card => !card.attributes.every(attr => attr.status === 'placeholder' || attr.value === '—'));
       
-      // 2. 核心排序：活跃的 (非 idle) 强制排在前面，灰色的 (idle) 沉到底部
+
       data.sort((a, b) => {
           const aIsIdle = a.mode === 'idle' ? 1 : 0;
           const bIsIdle = b.mode === 'idle' ? 1 : 0;
@@ -448,7 +456,7 @@
           if(!currentIds.has(el.dataset.id)) el.remove(); 
       });
 
-      // 3. 按排序后的顺序重新 append，浏览器会物理移动节点，达成“活跃置顶”
+
       data.forEach((card) => {
         let el = container.querySelector(`[data-id="${card.object}"]`);
         if (!el) { 
@@ -456,7 +464,7 @@
             el.dataset.id = card.object; 
         }
         
-        // 已经移除了 CSS 中对于 mode-idle 的特殊样式，现在所有物体卡片都是亮色的
+
         el.className = 'state-card mode-' + card.mode;
         let html = `<div class="card-title">${escape(card.display_object || card.object)}</div>`;
         card.attributes.forEach(attr => {
@@ -468,7 +476,7 @@
         container.appendChild(el); 
       });
 
-      // 4. 触发平滑动画
+
       requestAnimationFrame(() => {
         Array.from(container.children).forEach((el, index) => {
           const prev = rects.get(el.dataset.id);
@@ -497,16 +505,16 @@
       if (active !== lastIdx) {
         lastIdx = active;
         
-        // 渲染左侧：动态置顶
+
         renderDynamicLeft(worldList, currentTimeline[active].world_state);
         
-        // 渲染右侧：用 globalFinalGoalState 做模板，只套用当前步的颜色状态
+
         const currentGoalState = currentTimeline[active].state;
         const mergedGoalData = globalFinalGoalState.map(finalCard => {
             const currentCard = currentGoalState.find(c => c.object === finalCard.object);
             
             const mergedAttributes = finalCard.attributes.map(finalAttr => {
-                // 默认状态设为 neutral (灰底，代表还没进展到这一步)
+
                 let newStatus = 'neutral'; 
                 if (currentCard) {
                     const currAttr = currentCard.attributes.find(a => a.key === finalAttr.key);
@@ -522,7 +530,7 @@
 
         renderStaticGoal(goalList, mergedGoalData);
         
-        // 进度条滚动
+
         Array.from(tlList.children).forEach((el, i) => { 
           el.classList.toggle('active', i === active); 
           if(i === active) {
@@ -532,7 +540,7 @@
         });
       }
       
-      // 视频秒数倒计时
+
       currentTimeline.forEach((seg, i) => {
         const rPanel = document.getElementById(`reward-panel-${i}`);
         const rLabel = rPanel.querySelector('.r-label');
@@ -583,23 +591,19 @@
 
           if(!currentTimeline || currentTimeline.length === 0) return;
 
-          // 【最重要的一步】：提取视频的最终目标状态作为死模板
           const finalGoalData = currentTimeline[currentTimeline.length - 1].state;
           
-          // 过滤掉最终状态里的“空壳子”，得到完美的终极清单
           globalFinalGoalState = finalGoalData.map(card => {
              const validAttrs = card.attributes.filter(attr => attr.status !== 'placeholder' && attr.value !== '—');
              return { ...card, attributes: validAttrs };
           }).filter(card => card.attributes.length > 0);
           
-          // 根据终极清单，一上来就把坑位建死在右边
           globalFinalGoalState.forEach(card => {
               let el = document.createElement('div');
               el.dataset.id = card.object;
               goalList.appendChild(el);
           });
 
-          // 构建左侧的时间线 UI
           currentTimeline.forEach((seg, i) => {
             const div = document.createElement('div');
             div.className = 'step-item';
